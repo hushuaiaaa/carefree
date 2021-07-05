@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/tong.css">
+</head>
+<body>
+    <!-- 页眉 -->
+    <header>
+        <img src="./img/logo.jpg">
+        <div>
+            <span>我的</span>
+            <span>APP</span>
+        </div>
+    </header>
+    <!-- 主体部分 -->
+         <!-- 搜索 -->
+    <div class="tu">
+        <img src="./img/banner.png">
+        <div><input type="text" placeholder="输入小区或商圈名开始找房"></div>
+    </div>
+        <!-- 商品类型 -->
+    <ul class="lei">
+        <li>二手房</li>
+        <li>新房</li>
+        <li>租房</li>
+        <li>卖房</li>
+    </ul>
+        <!-- 房源 -->
+    <div class="tua">
+        <img src="./img/banner2.png">
+        <div>
+        <h2>热门房源</h2>
+        <h4>Hot house</h4>
+        </div>
+    </div>
+        <!-- 商品信息 -->
+    <div class="shangpin">
+        <img src="./img/img1.jpg">
+        <div>
+            <p>文化部中间层 一层代...</p>
+            <p>2室1厅96㎡南北<span>1105万</span></p>
+            <p>红庙北里<span>14268元/平</span></p>
+            <a>学区房</a><a>独家</a>
+        </div>
+    </div>
+    <div class="shangpin">
+        <img src="./img/img11.png">
+        <div>
+            <p>光大水墨 精装复式...</p>
+            <p>2室1厅96㎡南北<span>280万</span></p>
+            <p>光大水墨<span>999999元/平</span></p>
+            <a>学区房</a><a>独家</a><a>满五唯一</a>
+        </div>
+    </div>
+    <div class="shangpin">
+        <img src="./img/img12.png">
+        <div>
+            <p>南北通透两居 精装修...</p>
+            <p>2室1厅96㎡南北<span>320万</span></p>
+            <p>北京新天地<span>14268元/平</span></p>
+            <a>地铁房</a><a>独家</a>
+        </div>
+    </div>
+    <div class="fujia">
+        <div>
+            <span>热门关注</span><span>友情链接</span>
+        </div>
+        <div>
+            <ul>
+                <li>北京二手房</li>
+                <li>北京二手房价</li>
+                <li>海淀日租房</li>
+                <li>朝阳新房</li>
+            </ul>
+            <ul>
+                <li>北京找房无忧</li>
+                <li>青年家园</li>
+                <li>免税房源</li>
+                <li>满五年唯一免税</li>
+            </ul>
+        </div>
+    </div>
+    <div class="wei">
+        <div>北京找房无忧 > 首页</div>
+        <div>
+            <span><p>iPhone</p><p>客户端</p></span>
+            <span><p>Android</p><p>客户端</p></span>
+        </div>
+        <p>北京找房无忧但地产经纪公司</p>
+        <p>网络经营许可证京ICP备20160812号</p>
+    </div>
+    <div class="ding">
+        <span><img src="./img/download.png" ></span>
+        <span>
+            <p>找房无忧</p>
+            <p>市场行情,一手掌握</p>
+        </span>
+        <span>免费下载</span>
+    </div>
+</body>
+
+<script>
+    yi()
+    window.onresize= yi 
+      function yi(){
+        var wid = document.documentElement.clientWidth
+        var uIwi = 375
+        var fs = (wid/uIwi)*100
+        document.documentElement.style.fontSize = fs+'px'
+    }
+</script>
+</html>

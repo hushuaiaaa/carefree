@@ -1,0 +1,275 @@
+//页眉
+header{
+    width: 100vw;
+    background-color: #ff8a00;
+    height: 0.6rem;
+    overflow: hidden;
+    img{
+        width: 1.5rem;
+        float: left;
+        margin-top: .08rem;
+        margin-left: .25rem;
+    }
+    div{
+        float: right;
+        margin-top: .08rem;
+        padding-right: .3rem;
+        span:first-of-type{
+            color: white;
+            text-align: center;
+            display: inline-block;
+            padding-top: .3rem;
+            width: .25rem;
+            height: .5rem;
+            margin-left: .03rem;
+            font-size: .1rem;
+            background: url(../img/urse.png)no-repeat .04rem .08rem/.2rem .2rem;
+        }
+        span:last-of-type{
+            color: white;
+            text-align: center;
+            display: inline-block;
+            padding-top: .3rem;
+            width: .25rem;
+            height: .5rem;
+            margin-left: .13rem;
+            font-size: .1rem;
+            background: url(../img/down.png)no-repeat .03rem .08rem/.2rem .2rem;
+        }
+    }
+}
+//主体部分
+    // 搜索
+.tu{
+    width: 100vw;
+    position: relative;
+    height: 2.63rem;
+    img{
+        width: 100vw;
+    }
+    div{
+        width: 90vw;
+        position: absolute;
+        bottom: .2rem;
+        left: .18rem;
+        z-index: 10;
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            height: .3rem;
+            font-size: .17rem;
+            border: rgb(61, 61, 61) solid .01rem;
+            padding-left: .4rem;
+            background:white url(../img/seach.jpg)no-repeat .05rem .02rem/.27rem .27rem;
+        }
+    }
+}
+   // 商品类型
+.lei{
+    overflow: hidden;
+    list-style: none;
+    width: 100vw;
+    background-color: #ff8a00;
+    li{
+        float: left;
+        width: 25vw;
+        color: white;
+        font-size: .15rem;
+        padding-top: .6rem;
+        padding-bottom: .1rem;
+        text-align: center;
+    }
+    li:nth-child(1){
+        background: url(../img/index_03.png)no-repeat .25rem .1rem/.44rem .44rem;
+    }
+    li:nth-child(2){
+        background: url(../img/index_04.png)no-repeat .25rem .1rem/.44rem .44rem;
+    }
+    li:nth-child(3){
+        background: url(../img/index_05.png)no-repeat .25rem .1rem/.44rem .44rem;
+    }
+    li:nth-child(4){
+        background: url(../img/index_06.png)no-repeat .25rem .1rem/.44rem .44rem;
+    }
+}
+    // 房源
+.tua{
+    width: 100vw;
+    img{
+        width: 100vw;
+    }
+    div{
+        padding: .1rem;
+        padding-left: .2rem;
+        background-color: #ff8a00;
+        color: white;
+        h2{
+            font-size: .2rem;
+        }
+        h4{
+            font-size: .12rem;
+        }
+    }
+}
+    //  商品信息
+.shangpin{
+    width: 95vw;
+    margin: .1rem;
+    overflow: hidden;
+    padding-bottom: .07rem;
+    border-bottom: red solid .01rem;
+    img{
+        width: 35%;
+        float: left;
+    }
+    div{
+        float: left;
+        width: 64%;
+        p{
+            margin-bottom: .07rem;
+        }
+        p:nth-child(1){
+            font-size: .2rem;
+            color: rgb(53, 53, 53);
+            margin-left: .08rem;
+        }
+        p:nth-child(2){
+            font-size: .13rem;
+            overflow: hidden;
+            color: rgb(53, 53, 53);
+            margin-left: .08rem;
+            span{
+                float:right;
+                color: red;
+                padding-right: .03rem;
+            }
+        }
+        p:nth-child(3){
+            font-size: .13rem;
+            overflow: hidden;
+            color: rgb(170, 170, 170);
+            margin-left: .08rem;
+            span{
+                float:right;
+                color: rgb(170, 170, 170);
+                padding-right: .03rem;
+            }
+        }
+        a{
+            display: inline-block;
+            font-size: .13rem;
+            background-color: #F4F7F9;
+            padding: .02rem;
+            color: rgb(170, 170, 170);
+            margin-right: .02rem;
+            margin-left: .08rem;
+        }
+    }
+}
+.fujia{
+    div:first-of-type{
+        width: 100vw;
+        overflow: hidden;
+        color: rgb(112, 112, 112);
+        border-bottom: red solid .01rem;
+        span:first-of-type{
+            width: 50%;
+            text-align:center;
+            border-bottom: red solid .01rem;
+            display: inline-block;
+            font-size: .22rem;
+            color: #ff8a00;
+        }
+        span:last-of-type{
+            width: 50%;
+            text-align: center;
+            display: inline-block;
+            font-size: .22rem;
+        }
+    }
+    div:last-of-type{
+        overflow: hidden;
+        color: rgb(112, 112, 112);
+        ul{
+            float: left;
+            list-style: none;
+            li{
+                margin: .2rem .1rem;
+            }
+        }
+        ul:last-of-type{
+            margin-left: .8rem;
+        }
+    }
+}
+    // 页尾
+    .wei{
+        width: 95vw;
+        color: rgb(197, 196, 196);
+        font-size: .15rem;
+        padding:0 .1rem;
+        padding-bottom: .2rem;
+        background-color: #2F3130;
+        div:first-of-type{
+             padding: .1rem 0;
+             border-bottom: rgb(197, 196, 196) solid .01rem;
+            //  a
+        }
+        div:last-of-type{
+            padding: .1rem .2rem;
+            display: flex;
+             span{
+                 width: 50%;
+                 display: inline-block;
+                 p{
+                     text-align: center;
+                 }
+             }
+             span:first-of-type{
+                 background: url(../img/apple.png)no-repeat .2rem .05rem/.2rem .2rem;
+             }
+             span:last-of-type{
+                background: url(../img/android.png)no-repeat .2rem .05rem/.2rem .2rem;
+            }
+        }
+        p{
+            font-size: .12rem;
+            text-align: center;
+        }
+    }
+    // 固定定位部分
+.ding{
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    width: 100vw;
+    height: .46rem;
+    color: white;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    span{
+        display: inline-block;
+        float: left;
+    }
+    span:nth-child(1){
+        margin-left: .3rem;
+        img{
+            width: .38rem;
+            margin-top: .04rem;
+        }
+    }
+    span:nth-child(2){
+        margin: .1rem .425rem;
+        font-size: .12rem;
+    }
+    span:nth-child(3){
+        text-align: center;
+        font-size: .2rem;
+        height: .46rem;
+        box-sizing: border-box;
+        line-height: .46rem;
+        padding: .01rem .05rem;
+        background-color: #ff8a00;
+        float: right;
+    }
+}

@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: #F5F5F5;
+}
+header {
+  background-color: #FF8A00;
+  overflow: hidden;
+  border-bottom: 0.01rem solid gray;
+}
+header .tou {
+  overflow: hidden;
+  padding: 0.1rem 0;
+}
+header .tou .one,
+header .tou .two,
+header .tou .the {
+  height: 0.4rem;
+  float: left;
+}
+header .tou .one {
+  margin-left: 0.4rem;
+}
+header .tou .two {
+  margin-left: 1rem;
+}
+header .tou .the {
+  margin-left: 0.2rem;
+}
+header .sou {
+  width: 100%;
+  height: 0.6rem;
+  padding-top: 0.1rem;
+  background-color: #F5F5F5;
+}
+header .sou .suo {
+  width: 80%;
+  height: 0.4rem;
+  margin-left: 0.375rem;
+  background-color: white;
+  border: 0.01rem solid gray;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+header .sou .suo input {
+  float: left;
+  width: 2.4rem;
+  height: 0.22rem;
+  margin-top: 0.08rem;
+  margin-left: 0.1rem;
+  font-size: 0.15rem;
+  outline: none;
+  border: none;
+  border-right: 0.02rem solid black;
+}
+header .sou .suo .ku {
+  float: right;
+  margin-top: 0.08rem;
+  margin-right: 0.16rem;
+}
+header .sou .suo .ku img {
+  width: 0.2rem;
+  float: left;
+}
+article nav {
+  background-color: white;
+  position: relative;
+  border-bottom: 0.01rem solid gray;
+}
+article nav ul {
+  overflow: hidden;
+}
+article nav ul li {
+  width: 25%;
+  font-weight: bolder;
+  font-size: 0.24rem;
+  text-align: center;
+  color: #666767;
+  float: left;
+  line-height: 0.5rem;
+  height: 0.5rem;
+}
+article nav .qu {
+  display: none;
+  width: 100%;
+  background-color: #F0F0F0;
+  overflow: hidden;
+}
+article nav .qu .yu {
+  float: left;
+  width: 25%;
+}
+article nav .qu .yu .pa {
+  background-color: white;
+  color: #FF8A00;
+  font-weight: bolder;
+  border-right: none;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.24rem;
+}
+article nav .qu .yu p {
+  color: #666767;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+  border-right: 0.01rem solid #666767;
+}
+article nav .qu .di {
+  float: left;
+  width: 75%;
+  background-color: white;
+  overflow: hidden;
+}
+article nav .qu .di .jin,
+article nav .qu .di .jia {
+  float: left;
+  width: 50%;
+}
+article nav .qu .di .jin p,
+article nav .qu .di .jia p {
+  text-align: center;
+  font-size: 0.18rem;
+  color: #666767;
+  line-height: 0.5rem;
+}
+article nav .gee {
+  padding: 0 0.2rem;
+  display: none;
+}
+article nav .gee p {
+  border-bottom: 0.01rem solid #666767;
+  font-size: 0.1rem;
+  line-height: 0.6rem;
+  color: #666767;
+}
+article nav .gee .col {
+  color: #FF8A00;
+}
+article nav .gee p:last-child {
+  border-bottom: none;
+}
+article nav .fang {
+  display: none;
+  padding: 0 0.2rem;
+  overflow: hidden;
+  padding-bottom: 0.2rem;
+}
+article nav .fang p {
+  border-bottom: 0.01rem solid #666767;
+  overflow: hidden;
+  font-size: 0.18rem;
+  line-height: 0.6rem;
+  color: #666767;
+}
+article nav .fang p a {
+  float: right;
+  display: inline-block;
+  margin-right: 0.3rem;
+  margin-top: 0.16rem;
+  width: 0.16rem;
+  height: 0.16rem;
+  border: 0.01rem solid #666767;
+}
+article nav .fang p .aa {
+  background: url(../img/SecondHandList/ok.png) no-repeat;
+  background-size: 0.17rem;
+  background-position: 0 0.02rem;
+}
+article nav .fang button {
+  float: left;
+  font-weight: bolder;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.5rem;
+  color: white;
+  border: none;
+  background-color: #FF8A00;
+  height: 0.5rem;
+  width: 100%;
+  margin: auto;
+}
+article nav .geng {
+  display: none;
+  padding: 0 0.2rem;
+  overflow: hidden;
+}
+article nav .geng .shi {
+  border-bottom: 0.001rem solid #666767;
+  overflow: hidden;
+}
+article nav .geng .shi .jiu {
+  font-size: 0.2rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  width: 100%;
+  float: left;
+  font-weight: bolder;
+}
+article nav .geng .shi p {
+  float: left;
+  width: 21%;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.1rem;
+  border: 0.01rem solid #666767;
+}
+article nav .geng .shi .pp {
+  border: 0.01rem solid #FF8A00;
+  color: #FF8A00;
+}
+article .zhu {
+  padding: 0 0.2rem;
+}
+article .zhu li {
+  padding: 0.2rem 0;
+  overflow: hidden;
+  padding-bottom: 0.26rem;
+  border-bottom: 0.02rem solid #FF8A00;
+}
+article .zhu li .wu {
+  float: left;
+  width: 1rem;
+  margin-top: 0.1rem;
+  margin-right: 0.1rem;
+}
+article .zhu li p:nth-child(2) {
+  font-size: 0.18rem;
+  font-weight: bolder;
+}
+article .zhu li p:nth-child(3) {
+  font-size: 0.16rem;
+  margin-top: 0.1rem;
+}
+article .zhu li p:nth-child(4) {
+  font-size: 0.14rem;
+  font-weight: bolder;
+  margin-top: 0.08rem;
+  color: gray;
+}
+article .zhu li p:nth-child(4) span {
+  color: #FF8A00;
+  font-weight: bolder;
+}
+article .zhu li p:nth-child(5) {
+  font-size: 0.14rem;
+  margin-top: 0.08rem;
+  font-weight: bolder;
+  color: gray;
+}
+article .zhu li:last-child {
+  border: none;
+}
+footer {
+  padding: 0 0.16rem;
+  background-color: #2F3130;
+}
+footer .in {
+  font-size: 0.18rem;
+  line-height: 0.6rem;
+  color: gray;
+  border-bottom: 0.01rem solid gray;
+}
+footer .ip {
+  padding: 0.2rem;
+  overflow: hidden;
+}
+footer .ip .pho {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+footer .ip .pho .and {
+  float: left;
+  margin-right: 0.2rem;
+}
+footer .ip .pho .and img {
+  float: left;
+  width: 0.3rem;
+}
+footer .ip .pho p {
+  font-size: 0.2rem;
+  color: gray;
+}
+footer .zo {
+  padding-bottom: 0.1rem;
+}
+footer .zo p {
+  text-align: center;
+  font-size: 0.1rem;
+  color: gray;
+  line-height: 0.3rem;
+}

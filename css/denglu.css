@@ -1,0 +1,81 @@
+header {
+  background: url(../img/bg1.png);
+  width: 100vw;
+}
+header div:first-of-type {
+  width: 100vw;
+  color: white;
+  overflow: hidden;
+}
+header div:first-of-type span {
+  display: inline-block;
+  float: right;
+  font-size: 0.1rem;
+  padding: 0.3rem 0.1rem 0.1rem 0.1rem;
+}
+header div:first-of-type span:last-of-type {
+  background: url(../img/urse.png) no-repeat 0.14rem 0.06rem/0.2rem 0.2rem;
+}
+header div:first-of-type span:first-of-type {
+  background: url(../img/down.png) no-repeat 0.14rem 0.06rem/0.2rem 0.2rem;
+}
+header div:last-of-type {
+  width: 100vw;
+}
+header div:last-of-type ul {
+  list-style: none;
+  padding-bottom: 0.1rem;
+}
+header div:last-of-type ul li {
+  text-align: center;
+  color: white;
+  font-size: 0.1rem;
+}
+header div:last-of-type ul li img {
+  width: 0.7rem;
+}
+header div:last-of-type ul li:last-of-type {
+  margin: 0.1rem 0rem;
+}
+header div:last-of-type ul li:last-of-type span {
+  display: inline-block;
+  border: solid 0.01rem white;
+  padding: 0.05rem 0.15rem;
+}
+article {
+  width: 100vw;
+  margin-top: 0.1rem;
+  background-color: white;
+}
+article ul {
+  list-style: none;
+  padding: 0 0.15rem;
+}
+article ul li {
+  font-size: 0.1rem;
+  padding: 0.1rem 0;
+  color: #807f7f;
+  border-bottom: solid gainsboro 0.01rem;
+}
+article ul li span {
+  display: inline-block;
+  padding-left: 0.2rem;
+}
+article ul li span:last-of-type {
+  float: right;
+}
+article ul li span:last-of-type img {
+  width: 0.1rem;
+}
+article ul li:nth-child(1) {
+  background: url(../img/icon1.png) no-repeat 0.01rem 0.11rem/0.17rem 0.17rem;
+}
+article ul li:nth-child(2) {
+  background: url(../img/icon2.png) no-repeat 0.01rem 0.11rem/0.17rem 0.17rem;
+}
+article ul li:nth-child(3) {
+  background: url(../img/icon3.png) no-repeat 0.01rem 0.1rem/0.17rem 0.17rem;
+}
+article ul li:nth-child(4) {
+  background: url(../img/icon4.png) no-repeat 0.01rem 0.1rem/0.17rem 0.17rem;
+}

@@ -1,0 +1,26 @@
+html,body,div,li,ul,ol,img,a,p,span,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #E8E8E8;
+    width: 100vw;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+html {
+    overflow-y: scroll;
+  }
+  
+  :root {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  :root body {
+    position: absolute;
+  }
